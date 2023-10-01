@@ -16,3 +16,13 @@ F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07
 F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Form1.resources
 F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Properties.Resources.resources
 F:\18-19 HKII\18610SP\Kiem thu PM\Bai tap\BT4b\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.GenerateResource.Cache
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\bin\Debug\Buoi07_TinhToan3.exe.config
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\bin\Debug\Buoi07_TinhToan3.exe
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\bin\Debug\Buoi07_TinhToan3.pdb
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.AssemblyReference.cache
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Form1.resources
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.Properties.Resources.resources
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.GenerateResource.cache
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.CoreCompileInputs.cache
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.exe
+E:\SPKT - HCMUTE\HK7\Kiem thu\C05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.pdb

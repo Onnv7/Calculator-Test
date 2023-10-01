@@ -47,6 +47,42 @@ namespace Buoi07_TinhToan3
 
         private void btnTinh_Click(object sender, EventArgs e)
         {
+            //laygiatriso
+            string so1Text = txtSo1.Text;
+            string so2Text = txtSo2.Text;
+            //T18
+
+            if (so1Text == "" || so2Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập số vào ô số. Bạn đang để trống", "Lỗi", MessageBoxButtons.OK);
+                txtSo1.Text = "";
+                txtSo2.Text = "";
+                txtSo1.Focus();
+                txtSo2.Focus();
+
+                return;
+            }
+
+            //tri _T23
+
+
+
+            if (!IsValidDecimal(so1Text) || !IsValidDecimal(so2Text))
+            {
+                MessageBox.Show("Vui lòng nhập số  hợp lệ.Bạn đang nhập sai định dạng", "Lỗi", MessageBoxButtons.OK);
+                txtSo1.Text = "";
+                txtSo2.Text = "";
+
+                return;
+            }
+            /////////////////////////////////
+            ///
+
+
+
+
+
+        
             //lấy giá trị của 2 ô số
             double so1, so2, kq = 0;
             so1 = double.Parse(txtSo1.Text);
@@ -86,6 +122,12 @@ namespace Buoi07_TinhToan3
         private void txtSo2_MouseClick(object sender, MouseEventArgs e)
         {
             txtSo2.SelectAll();
+        }
+
+        private bool IsValidDecimal(string input)
+        {
+            double result;
+            return double.TryParse(input, out result);
         }
     }
 }

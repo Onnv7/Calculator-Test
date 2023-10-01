@@ -42,9 +42,27 @@ namespace Buoi07_TinhToan3
             if (radCong.Checked) kq = so1 + so2;
             else if (radTru.Checked) kq = so1 - so2;
             else if (radNhan.Checked) kq = so1 * so2;
-            else if (radChia.Checked && so2 != 0) kq = so1 / so2;
+            else if (radChia.Checked)
+            {
+                if (so2 != 0) kq = so1 / so2;
+                else
+                {
+                    MessageBox.Show("Số chia không được có giá trị là 0 !!!", "Lỗi", MessageBoxButtons.OK);
+                    txtSo2.Focus();
+                }
+            }
             //Hiển thị kết quả lên trên ô kết quả
             txtKq.Text = kq.ToString();
+        }
+
+        private void txtSo1_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtSo1.SelectAll();
+        }
+
+        private void txtSo2_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtSo2.SelectAll();
         }
     }
 }

@@ -31,6 +31,19 @@ namespace Buoi07_TinhToan3
             if (dr == DialogResult.Yes)
                 this.Close();
         }
+        private string ConvertToScientificNotation(double number)
+        {
+            if (number == 0)
+            {
+                return "0";
+            }
+            int exponent = (int)Math.Floor(Math.Log10(Math.Abs(number)));
+            double significand = number / Math.Pow(10, exponent);
+
+            string result = $"{Math.Round(significand, 1):0.#}*1E+{exponent}";
+
+            return result;
+        }
 
         private void btnTinh_Click(object sender, EventArgs e)
         {
@@ -52,7 +65,17 @@ namespace Buoi07_TinhToan3
                 }
             }
             //Hiển thị kết quả lên trên ô kết quả
-            txtKq.Text = kq.ToString();
+            if(kq.ToString().Length > 10)
+			{
+                txtKq.Text = ConvertToScientificNotation(kq);
+            }
+            else
+            {
+                Console.WriteLine(kq.ToString());
+
+                txtKq.Text = kq.ToString();
+
+            }
         }
 
         private void txtSo1_MouseClick(object sender, MouseEventArgs e)
